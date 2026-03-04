@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/SportsClub.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/SportsClub.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/SportsClub.Application.csproj",
+        "projectName": "SportsClub.Application",
+        "projectPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/SportsClub.Application.csproj",
+        "packagesPath": "/Users/ahmetsenocak/.nuget/packages/",
+        "outputPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetsenocak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj": {
+                "projectPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj",
+        "projectName": "SportsClub.Domain",
+        "projectPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj",
+        "packagesPath": "/Users/ahmetsenocak/.nuget/packages/",
+        "outputPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetsenocak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/SportsClub.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/SportsClub.Infrastructure.csproj",
+        "projectName": "SportsClub.Infrastructure",
+        "projectPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/SportsClub.Infrastructure.csproj",
+        "packagesPath": "/Users/ahmetsenocak/.nuget/packages/",
+        "outputPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ahmetsenocak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/SportsClub.Application.csproj": {
+                "projectPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/SportsClub.Application.csproj"
+              },
+              "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj": {
+                "projectPath": "/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/SportsClub.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

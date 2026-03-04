@@ -1,0 +1,39 @@
+databases:
+  - name: sportsclub-db
+    databaseName: sportsclub
+    user: sportsclub_user
+    plan: free
+    region: frankfurt
+
+services:
+  # Backend API (.NET 9 Docker)
+  - type: web
+    name: sportsclub-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: frankfurt
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        fromDatabase:
+          name: sportsclub-db
+          property: connectionString
+      # JWT Secrets (Can be modified later from Render Dashboard)
+      - key: JWT__Secret
+        generateValue: true
+      - key: JWT__ValidAudience
+        value: "https://sportsclub-frontend.onrender.com"
+      - key: JWT__ValidIssuer
+        value: "https://sportsclub-api.onrender.com"
+
+  # Frontend (React Vite)
+  - type: web
+    name: sportsclub-frontend
+    env: static
+    plan: free
+    region: frankfurt
+    buildCommand: cd SportsClub.Frontend && npm install && npm run build
+    staticPublishPath: ./SportsClub.Frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: "https://sportsclub-api.onrender.com/api"

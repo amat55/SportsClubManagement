@@ -1,0 +1,12 @@
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/bin/Debug/net9.0/SportsClub.Domain.deps.json
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/bin/Debug/net9.0/SportsClub.Domain.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/bin/Debug/net9.0/SportsClub.Domain.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.csproj.AssemblyReference.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.AssemblyInfoInputs.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.AssemblyInfo.cs
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.csproj.CoreCompileInputs.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/refint/SportsClub.Domain.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/ref/SportsClub.Domain.dll

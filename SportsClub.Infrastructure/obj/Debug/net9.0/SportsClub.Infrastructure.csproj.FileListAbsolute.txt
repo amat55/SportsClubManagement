@@ -1,0 +1,17 @@
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Infrastructure.deps.json
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Infrastructure.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Infrastructure.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Application.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Domain.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Application.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/bin/Debug/net9.0/SportsClub.Domain.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.csproj.AssemblyReference.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.AssemblyInfoInputs.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.AssemblyInfo.cs
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsCl.BA1D2229.Up2Date
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/refint/SportsClub.Infrastructure.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/ref/SportsClub.Infrastructure.dll

@@ -1,0 +1,15 @@
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/bin/Debug/net9.0/SportsClub.Application.deps.json
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/bin/Debug/net9.0/SportsClub.Application.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/bin/Debug/net9.0/SportsClub.Application.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/bin/Debug/net9.0/SportsClub.Domain.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/bin/Debug/net9.0/SportsClub.Domain.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.csproj.AssemblyReference.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.AssemblyInfoInputs.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.AssemblyInfo.cs
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.csproj.CoreCompileInputs.cache
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsCl.43A41A46.Up2Date
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/refint/SportsClub.Application.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.pdb
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/ref/SportsClub.Application.dll
