@@ -139,7 +139,8 @@ using (var scope = app.Services.CreateScope())
             context.Database.Migrate();
         }
         
-        // Rolleri tohumlamak için DbSeeder vb. varsa buraya eklenebilir.
+        // Rolleri ve varsayılan Admin kullanıcısını sisteme ekle
+        DbSeeder.SeedAsync(services).Wait();
     }
     catch (Exception ex)
     {

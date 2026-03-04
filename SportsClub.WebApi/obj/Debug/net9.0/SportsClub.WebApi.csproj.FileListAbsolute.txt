@@ -137,3 +137,4 @@
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.WebApi/obj/Debug/net9.0/SportsClub.WebApi.genruntimeconfig.cache
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.WebApi/obj/Debug/net9.0/ref/SportsClub.WebApi.dll
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.WebApi/bin/Debug/net9.0/SportsClub.WebApi.staticwebassets.runtime.json
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.WebApi/obj/Debug/net9.0/SportsClub.WebApi.sourcelink.json

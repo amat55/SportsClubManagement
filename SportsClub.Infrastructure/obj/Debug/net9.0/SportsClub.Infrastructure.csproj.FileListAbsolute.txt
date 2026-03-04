@@ -15,3 +15,4 @@
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/refint/SportsClub.Infrastructure.dll
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.pdb
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/ref/SportsClub.Infrastructure.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Infrastructure/obj/Debug/net9.0/SportsClub.Infrastructure.sourcelink.json

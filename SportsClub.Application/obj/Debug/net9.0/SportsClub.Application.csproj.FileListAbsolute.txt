@@ -13,3 +13,4 @@
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/refint/SportsClub.Application.dll
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.pdb
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/ref/SportsClub.Application.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Application/obj/Debug/net9.0/SportsClub.Application.sourcelink.json

@@ -10,3 +10,4 @@
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/refint/SportsClub.Domain.dll
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.pdb
 /Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/ref/SportsClub.Domain.dll
+/Users/ahmetsenocak/Desktop/Basketball/SportsClubManagement/SportsClub.Domain/obj/Debug/net9.0/SportsClub.Domain.sourcelink.json
