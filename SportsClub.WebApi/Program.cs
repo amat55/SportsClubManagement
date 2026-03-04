@@ -137,7 +137,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 app.UseStaticFiles(); // wwwroot içindeki dosyaları dışarı açar
 
 // CORS Kullanımı
