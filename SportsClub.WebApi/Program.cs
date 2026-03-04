@@ -20,9 +20,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policyBuilder =>
     {
-        policyBuilder.AllowAnyOrigin()
+        policyBuilder.SetIsOriginAllowed(_ => true) // Tüm originlere dinamik izin ver
                      .AllowAnyMethod()
-                     .AllowAnyHeader();
+                     .AllowAnyHeader()
+                     .AllowCredentials(); // Token ve cookie transferine izin ver
     });
 });
 
