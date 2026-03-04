@@ -56,11 +56,16 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 // Configure Entity Framework Core with PostgreSQL
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")?.Trim();
 
-// Render.com'un postgres:// formatını standart Npgsql formatına çeviren daha güvenli eklenti
-if (!string.IsNullOrEmpty(connectionString) && connectionString.StartsWith("postgres://"))
+// Render.com'un postgres:// veya postgresql:// formatını standart Npgsql formatına çeviren güvenli eklenti
+if (!string.IsNullOrEmpty(connectionString) && 
+    (connectionString.StartsWith("postgres://") || connectionString.StartsWith("postgresql://")))
 {
+    // Olası postgresql:// önekini postgres:// olarak değiştir
+    if (connectionString.StartsWith("postgresql://"))
+        connectionString = connectionString.Replace("postgresql://", "postgres://");
+        
     // postgres://user:password@host:port/database
     var uri = new Uri(connectionString);
     var userInfo = uri.UserInfo.Split(':', 2); // Şifredeki olası iki noktaları koru
