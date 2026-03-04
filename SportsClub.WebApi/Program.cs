@@ -20,10 +20,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policyBuilder =>
     {
-        policyBuilder.SetIsOriginAllowed(_ => true) // Tüm originlere dinamik izin ver
+        policyBuilder.AllowAnyOrigin()
                      .AllowAnyMethod()
-                     .AllowAnyHeader()
-                     .AllowCredentials(); // Token ve cookie transferine izin ver
+                     .AllowAnyHeader();
     });
 });
 
@@ -138,6 +137,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles(); // wwwroot içindeki dosyaları dışarı açar
+
+app.UseRouting();
 
 // CORS Kullanımı
 app.UseCors("AllowAll");
