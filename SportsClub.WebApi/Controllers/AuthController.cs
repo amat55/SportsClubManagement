@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 using SportsClub.Application.DTOs.Auth;
 using SportsClub.Application.Interfaces;
 
@@ -7,6 +8,7 @@ namespace SportsClub.WebApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[EnableCors("AllowAll")] // Java'daki @CrossOrigin anotasyonunun .NET Karşılığı
 public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;
