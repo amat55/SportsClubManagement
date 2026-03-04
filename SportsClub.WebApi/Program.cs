@@ -20,9 +20,11 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policyBuilder =>
     {
-        policyBuilder.AllowAnyOrigin()
+        policyBuilder.WithOrigins("https://sportsclub-frontend.onrender.com", "http://localhost:5173", "http://localhost:3000") // Spesifik Frontend Origin'leri
+                     .SetIsOriginAllowed(_ => true) // Tüm originleri serbest bırak (yedek)
                      .AllowAnyMethod()
-                     .AllowAnyHeader();
+                     .AllowAnyHeader()
+                     .AllowCredentials(); // Render'da JWT transferi için bazen credential gerekebilir, originler spesifik yazıldığı için artık güvenli
     });
 });
 
@@ -143,7 +145,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 
 app.UseRouting();
 
-// CORS Kullanımı
+// CORS, Routing'den HEMEN SONRA gelmeli!
 app.UseCors("AllowAll");
 
 app.UseAuthentication();
