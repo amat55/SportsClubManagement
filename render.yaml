@@ -31,7 +31,6 @@ services:
     name: sportsclub-frontend
     env: static
     plan: free
-    region: frankfurt
     buildCommand: cd SportsClub.Frontend && npm install && npm run build
     staticPublishPath: ./SportsClub.Frontend/dist
     envVars:
