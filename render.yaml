@@ -34,4 +34,4 @@ services:
     staticPublishPath: ./SportsClub.Frontend/dist
     envVars:
       - key: VITE_API_URL
-        value: "https://sportsclub-api.onrender.com/api"
+        value: "https://sportsclub-api-if2z.onrender.com/api"
