@@ -2,12 +2,31 @@ import { BrowserRouter } from 'react-router-dom';
 import { AppRoutes } from './routes/AppRoutes';
 import { useAuthStore } from './store/useAuthStore';
 import { useEffect } from 'react';
+import api from './services/api';
 
 function App() {
   const { checkAuth, isAuthenticated, user, logout } = useAuthStore();
 
   useEffect(() => {
-    checkAuth();
+    const autoLogin = async () => {
+      try {
+        const res = await api.post('/auth/login', {
+          email: 'admin@sportsclub.com',
+          password: 'Admin123!'
+        });
+        if (res.data.isSuccess) {
+          useAuthStore.getState().login(res.data.token);
+        }
+      } catch (error) {
+        console.error('Otomatik giriş başarısız oldu:', error);
+      }
+    };
+
+    if (!localStorage.getItem('token')) {
+      autoLogin();
+    } else {
+      checkAuth();
+    }
   }, [checkAuth]);
 
   return (
