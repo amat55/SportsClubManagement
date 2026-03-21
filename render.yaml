@@ -32,6 +32,10 @@ services:
     env: static
     buildCommand: cd SportsClub.Frontend && npm install && npm run build
     staticPublishPath: ./SportsClub.Frontend/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
     envVars:
       - key: VITE_API_URL
         value: "https://sportsclub-api-if2z.onrender.com/api"

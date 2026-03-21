@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { AppRoutes } from './routes/AppRoutes';
 import { useAuthStore } from './store/useAuthStore';
 import { useEffect } from 'react';
@@ -38,16 +38,16 @@ function App() {
         <nav className="bg-white shadow">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h1 className="text-primary-600 font-bold text-xl cursor-pointer" onClick={() => window.location.href = '/'}>SportsClub Plus</h1>
+              <Link to="/"><h1 className="text-primary-600 font-bold text-xl cursor-pointer">SportsClub Plus</h1></Link>
               <div className="hidden md:flex space-x-4">
-                <a href="/" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Gösterge Paneli</a>
-                <a href="/athletes" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Sporcular</a>
-                <a href="/teams" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Takımlar & Branşlar</a>
-                <a href="/attendance" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Yoklama</a>
-                <a href="/medical" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Gelişim Takibi</a>
-                <a href="/shuttles" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Servisler</a>
-                <a href="/messaging" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Mesajlar</a>
-                <a href="/payments" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Muhasebe</a>
+                <Link to="/" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Gösterge Paneli</Link>
+                <Link to="/athletes" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Sporcular</Link>
+                <Link to="/teams" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Takımlar & Branşlar</Link>
+                <Link to="/attendance" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Yoklama</Link>
+                <Link to="/medical" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Gelişim Takibi</Link>
+                <Link to="/shuttles" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Servisler</Link>
+                <Link to="/messaging" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Mesajlar</Link>
+                <Link to="/payments" className="text-gray-600 hover:text-primary-600 font-medium text-sm transition-colors">Muhasebe</Link>
               </div>
             </div>
             <div className="flex items-center space-x-4">
