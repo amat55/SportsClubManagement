@@ -6,6 +6,7 @@ interface AuthState {
     user: User | null;
     token: string | null;
     isAuthenticated: boolean;
+    isAuthenticating: boolean;
     login: (token: string) => void;
     logout: () => void;
     checkAuth: () => void;
@@ -15,6 +16,7 @@ export const useAuthStore = create<AuthState>((set) => ({
     user: null,
     token: localStorage.getItem('token'),
     isAuthenticated: !!localStorage.getItem('token'),
+    isAuthenticating: true, // Başlangıçta Auth durumu kontrol ediliyor varsayılır
 
     login: (token: string) => {
         localStorage.setItem('token', token);
@@ -34,17 +36,17 @@ export const useAuthStore = create<AuthState>((set) => ({
                     : [decoded['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']].filter(Boolean)
             };
 
-            set({ token, isAuthenticated: true, user });
+            set({ token, isAuthenticated: true, isAuthenticating: false, user });
         } catch (e) {
             console.error('Invalid token', e);
             localStorage.removeItem('token');
-            set({ token: null, isAuthenticated: false, user: null });
+            set({ token: null, isAuthenticated: false, isAuthenticating: false, user: null });
         }
     },
 
     logout: () => {
         localStorage.removeItem('token');
-        set({ user: null, token: null, isAuthenticated: false });
+        set({ user: null, token: null, isAuthenticated: false, isAuthenticating: false });
     },
 
     checkAuth: () => {
@@ -53,7 +55,7 @@ export const useAuthStore = create<AuthState>((set) => ({
             // Login metodunu tekrar çağırarak state'i doldur ve validity kontrolü yap
             useAuthStore.getState().login(token);
         } else {
-            set({ isAuthenticated: false, user: null, token: null });
+            set({ isAuthenticated: false, isAuthenticating: false, user: null, token: null });
         }
     }
 }));

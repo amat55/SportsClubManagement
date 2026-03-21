@@ -16,9 +16,12 @@ function App() {
         });
         if (res.data.isSuccess) {
           useAuthStore.getState().login(res.data.token);
+        } else {
+          useAuthStore.setState({ isAuthenticating: false });
         }
       } catch (error) {
         console.error('Otomatik giriş başarısız oldu:', error);
+        useAuthStore.setState({ isAuthenticating: false });
       }
     };
 

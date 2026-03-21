@@ -12,7 +12,11 @@ import { Messaging } from '../pages/Messaging';
 
 // PROTECTED ROUTE COMPONENT
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
-    const { isAuthenticated } = useAuthStore();
+    const { isAuthenticated, isAuthenticating } = useAuthStore();
+    
+    // Otomatik giriş arkaplanda deneniyorsa (isAuthenticating true ise) Login'e yönlendirme yapma, boş veya yükleniyor ekranı göster
+    if (isAuthenticating) return <div className="h-screen w-screen flex items-center justify-center bg-gray-50"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div></div>;
+    
     if (!isAuthenticated) return <Navigate to="/login" replace />;
     return <>{children}</>;
 };
